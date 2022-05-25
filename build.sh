@@ -15,7 +15,7 @@ else
     export GOARCH=amd64
 fi
 
-go mod download
-go mod verify 
+go mod tidy
+go mod verify
 go test ./...
 go build -ldflags "-X github.com/prometheus/common/version.Version=${VERSION}"

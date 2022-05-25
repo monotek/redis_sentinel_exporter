@@ -24,3 +24,13 @@ This is a simple server that scrapes Redis Sentinel stats and exports them via H
 
 * <https://github.com/hiboxsystems/redis_sentinel_exporter>
 * <https://github.com/leominov/redis_sentinel_exporter>
+
+## Docker
+
+Images are pushed to <https://hub.docker.com/repository/docker/monotek/redis-sentinel-exporter>
+
+Run via:
+
+```bash
+docker run -it --rm -p 9355:9355 monotek/redis-sentinel-exporter
+```
