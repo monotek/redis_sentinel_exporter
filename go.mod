@@ -1,4 +1,4 @@
-module github.com/leominov/redis_sentinel_exporter
+module github.com/monotek/redis_sentinel_exporter
 
 go 1.18
 
