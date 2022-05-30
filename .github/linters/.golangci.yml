@@ -1,19 +1,7 @@
 ---
-#########################
-#########################
-## Golang Linter rules ##
-#########################
-#########################
-
 # configure golangci-lint
-# see https://github.com/golangci/golangci-lint/blob/master/.golangci.example.yml
-issues:
-  exclude-rules:
-    - path: _test\.go
-      linters:
-        - dupl
-        - gosec
-        - goconst
+# see https://golangci-lint.run/usage/configuration
+
 linters:
   disable-all: true
   enable:
@@ -22,4 +10,3 @@ linters-settings:
   govet:
     # report about shadowed variables
     check-shadowing: false
-
