@@ -15,6 +15,7 @@ issues:
         - gosec
         - goconst
 linters:
+  disable-all: true
   enable:
     - gofmt
 linters-settings:
